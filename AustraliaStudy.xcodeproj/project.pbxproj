@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459DFC7F23CB083D00BD478F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459DFC7E23CB083D00BD478F /* HomeViewController.swift */; };
 		45C183B82382275C007A0AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183B72382275C007A0AD4 /* AppDelegate.swift */; };
 		45C183BA2382275C007A0AD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183B92382275C007A0AD4 /* SceneDelegate.swift */; };
-		45C183BC2382275C007A0AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183BB2382275C007A0AD4 /* ViewController.swift */; };
 		45C183BF2382275C007A0AD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C183BD2382275C007A0AD4 /* Main.storyboard */; };
 		45C183C12382275C007A0AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C183C02382275C007A0AD4 /* Assets.xcassets */; };
 		45C183C42382275C007A0AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C183C22382275C007A0AD4 /* LaunchScreen.storyboard */; };
+		45C183DC23822949007A0AD4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183CC23822949007A0AD4 /* AuthService.swift */; };
+		45C183DD23822949007A0AD4 /* CourseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183CD23822949007A0AD4 /* CourseService.swift */; };
+		45C183DE23822949007A0AD4 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183CF23822949007A0AD4 /* Course.swift */; };
+		45C183E123822949007A0AD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183D523822949007A0AD4 /* Constants.swift */; };
+		45C183E223822949007A0AD4 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183D723822949007A0AD4 /* CourseTableViewCell.swift */; };
+		45C183E323822949007A0AD4 /* CourseDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183D923822949007A0AD4 /* CourseDataViewController.swift */; };
+		45C183E423822949007A0AD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183DA23822949007A0AD4 /* LoginViewController.swift */; };
+		45C183E523822949007A0AD4 /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C183DB23822949007A0AD4 /* SchoolsViewController.swift */; };
+		45C624AE23C99C0500D3D4E0 /* OurServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C624AD23C99C0500D3D4E0 /* OurServicesViewController.swift */; };
+		45C624B023C9B6FB00D3D4E0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C624AF23C9B6FB00D3D4E0 /* User.swift */; };
+		45C624B223C9E23800D3D4E0 /* Agency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C624B123C9E23800D3D4E0 /* Agency.swift */; };
+		45C624B423C9E95600D3D4E0 /* AgencyInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C624B323C9E95600D3D4E0 /* AgencyInfoData.swift */; };
+		45C624B623C9F0B700D3D4E0 /* AgencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C624B523C9F0B700D3D4E0 /* AgencyTableViewCell.swift */; };
+		45E483E2240D0D5E001AD72C /* BlogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E483E1240D0D5E001AD72C /* BlogService.swift */; };
+		45E483E4240D1265001AD72C /* BlogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E483E3240D1265001AD72C /* BlogsViewController.swift */; };
+		5B44B8957BA16B9054D4F923 /* Pods_AustraliaStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4412905D21D38E845C030E5E /* Pods_AustraliaStudy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4412905D21D38E845C030E5E /* Pods_AustraliaStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AustraliaStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		459DFC7E23CB083D00BD478F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		45C183B42382275C007A0AD4 /* AustraliaStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustraliaStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C183B72382275C007A0AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C183B92382275C007A0AD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45C183BB2382275C007A0AD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45C183BE2382275C007A0AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C183C02382275C007A0AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C183C32382275C007A0AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C183C52382275C007A0AD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C183CC23822949007A0AD4 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		45C183CD23822949007A0AD4 /* CourseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseService.swift; sourceTree = "<group>"; };
+		45C183CF23822949007A0AD4 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		45C183D523822949007A0AD4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		45C183D723822949007A0AD4 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		45C183D923822949007A0AD4 /* CourseDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDataViewController.swift; sourceTree = "<group>"; };
+		45C183DA23822949007A0AD4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45C183DB23822949007A0AD4 /* SchoolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsViewController.swift; sourceTree = "<group>"; };
+		45C624AD23C99C0500D3D4E0 /* OurServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurServicesViewController.swift; sourceTree = "<group>"; };
+		45C624AF23C9B6FB00D3D4E0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		45C624B123C9E23800D3D4E0 /* Agency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agency.swift; sourceTree = "<group>"; };
+		45C624B323C9E95600D3D4E0 /* AgencyInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyInfoData.swift; sourceTree = "<group>"; };
+		45C624B523C9F0B700D3D4E0 /* AgencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgencyTableViewCell.swift; sourceTree = "<group>"; };
+		45E483E1240D0D5E001AD72C /* BlogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogService.swift; sourceTree = "<group>"; };
+		45E483E3240D1265001AD72C /* BlogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsViewController.swift; sourceTree = "<group>"; };
+		991F512C21B2F68B2AD0A300 /* Pods-AustraliaStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AustraliaStudy.debug.xcconfig"; path = "Target Support Files/Pods-AustraliaStudy/Pods-AustraliaStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		D71D30211AC16AE3FF71BA79 /* Pods-AustraliaStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AustraliaStudy.release.xcconfig"; path = "Target Support Files/Pods-AustraliaStudy/Pods-AustraliaStudy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B44B8957BA16B9054D4F923 /* Pods_AustraliaStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B80998CE4FEEA898B965E38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4412905D21D38E845C030E5E /* Pods_AustraliaStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		45C183AB2382275C007A0AD4 = {
 			isa = PBXGroup;
 			children = (
 				45C183B62382275C007A0AD4 /* AustraliaStudy */,
 				45C183B52382275C007A0AD4 /* Products */,
+				BAC6244BBCD19D084EF757D8 /* Pods */,
+				0B80998CE4FEEA898B965E38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,87 @@
 		45C183B62382275C007A0AD4 /* AustraliaStudy */ = {
 			isa = PBXGroup;
 			children = (
-				45C183B72382275C007A0AD4 /* AppDelegate.swift */,
-				45C183B92382275C007A0AD4 /* SceneDelegate.swift */,
-				45C183BB2382275C007A0AD4 /* ViewController.swift */,
 				45C183BD2382275C007A0AD4 /* Main.storyboard */,
 				45C183C02382275C007A0AD4 /* Assets.xcassets */,
+				45C183D823822949007A0AD4 /* Controller */,
+				45C183CE23822949007A0AD4 /* Model */,
+				45C183CB23822949007A0AD4 /* Services */,
+				45C183D023822949007A0AD4 /* Supporting Files */,
+				45C183D423822949007A0AD4 /* Utilities */,
+				45C183D623822949007A0AD4 /* View */,
+				45C183B72382275C007A0AD4 /* AppDelegate.swift */,
+				45C183B92382275C007A0AD4 /* SceneDelegate.swift */,
 				45C183C22382275C007A0AD4 /* LaunchScreen.storyboard */,
 				45C183C52382275C007A0AD4 /* Info.plist */,
 			);
 			path = AustraliaStudy;
+			sourceTree = "<group>";
+		};
+		45C183CB23822949007A0AD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				45C183CC23822949007A0AD4 /* AuthService.swift */,
+				45C183CD23822949007A0AD4 /* CourseService.swift */,
+				45E483E1240D0D5E001AD72C /* BlogService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		45C183CE23822949007A0AD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45C183CF23822949007A0AD4 /* Course.swift */,
+				45C624AF23C9B6FB00D3D4E0 /* User.swift */,
+				45C624B123C9E23800D3D4E0 /* Agency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45C183D023822949007A0AD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C183D423822949007A0AD4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				45C183D523822949007A0AD4 /* Constants.swift */,
+				45C624B323C9E95600D3D4E0 /* AgencyInfoData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		45C183D623822949007A0AD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45C183D723822949007A0AD4 /* CourseTableViewCell.swift */,
+				45C624B523C9F0B700D3D4E0 /* AgencyTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45C183D823822949007A0AD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45C183D923822949007A0AD4 /* CourseDataViewController.swift */,
+				45C183DA23822949007A0AD4 /* LoginViewController.swift */,
+				45C183DB23822949007A0AD4 /* SchoolsViewController.swift */,
+				45C624AD23C99C0500D3D4E0 /* OurServicesViewController.swift */,
+				459DFC7E23CB083D00BD478F /* HomeViewController.swift */,
+				45E483E3240D1265001AD72C /* BlogsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAC6244BBCD19D084EF757D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				991F512C21B2F68B2AD0A300 /* Pods-AustraliaStudy.debug.xcconfig */,
+				D71D30211AC16AE3FF71BA79 /* Pods-AustraliaStudy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45C183C82382275C007A0AD4 /* Build configuration list for PBXNativeTarget "AustraliaStudy" */;
 			buildPhases = (
+				515BFCCA01C9897972ADBDCC /* [CP] Check Pods Manifest.lock */,
 				45C183B02382275C007A0AD4 /* Sources */,
 				45C183B12382275C007A0AD4 /* Frameworks */,
 				45C183B22382275C007A0AD4 /* Resources */,
+				FD0A197648CBA250E291E59C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +252,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		515BFCCA01C9897972ADBDCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AustraliaStudy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0A197648CBA250E291E59C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AustraliaStudy/Pods-AustraliaStudy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AustraliaStudy/Pods-AustraliaStudy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AustraliaStudy/Pods-AustraliaStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		45C183B02382275C007A0AD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C183BC2382275C007A0AD4 /* ViewController.swift in Sources */,
+				45C624B023C9B6FB00D3D4E0 /* User.swift in Sources */,
+				45C183E223822949007A0AD4 /* CourseTableViewCell.swift in Sources */,
+				45C624B223C9E23800D3D4E0 /* Agency.swift in Sources */,
+				459DFC7F23CB083D00BD478F /* HomeViewController.swift in Sources */,
+				45C183DD23822949007A0AD4 /* CourseService.swift in Sources */,
+				45C183DC23822949007A0AD4 /* AuthService.swift in Sources */,
+				45E483E4240D1265001AD72C /* BlogsViewController.swift in Sources */,
+				45C183DE23822949007A0AD4 /* Course.swift in Sources */,
+				45C183E123822949007A0AD4 /* Constants.swift in Sources */,
 				45C183B82382275C007A0AD4 /* AppDelegate.swift in Sources */,
+				45C624B423C9E95600D3D4E0 /* AgencyInfoData.swift in Sources */,
+				45C624AE23C99C0500D3D4E0 /* OurServicesViewController.swift in Sources */,
+				45C183E323822949007A0AD4 /* CourseDataViewController.swift in Sources */,
+				45C183E423822949007A0AD4 /* LoginViewController.swift in Sources */,
+				45E483E2240D0D5E001AD72C /* BlogService.swift in Sources */,
+				45C183E523822949007A0AD4 /* SchoolsViewController.swift in Sources */,
+				45C624B623C9F0B700D3D4E0 /* AgencyTableViewCell.swift in Sources */,
 				45C183BA2382275C007A0AD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +458,13 @@
 		};
 		45C183C92382275C007A0AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991F512C21B2F68B2AD0A300 /* Pods-AustraliaStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22AYV45MYM;
 				INFOPLIST_FILE = AustraliaStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +478,13 @@
 		};
 		45C183CA2382275C007A0AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71D30211AC16AE3FF71BA79 /* Pods-AustraliaStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22AYV45MYM;
 				INFOPLIST_FILE = AustraliaStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
